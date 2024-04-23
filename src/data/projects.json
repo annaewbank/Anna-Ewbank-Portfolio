@@ -1,0 +1,88 @@
+[
+  {
+    "title": "cogo",
+    "year": "2024",
+    "tagline": "Group travel, hassle-free",
+    "description": "Planning group trips is now a breeze, thanks to cogo. Simply create a group trip and invite your friends. Trip members can then propose and vote on potential destinations and accommodation. When ready, trip organisers can create a virtual cogopay card to be used for group payments. No more awkwardly splitting bills.",
+    "link": "http://www.cogo.uk/",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextUI",
+      "Figma",
+      "Adobe CC",
+      "NextAuth.js",
+      "OAuth",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "Cheerio",
+      "Weavr",
+      "Cypress",
+      "Sentry"
+    ],
+    "responsibilities": [
+      "Designed cogo's branding using Adobe CC",
+      "Created lo-res and high-res wireframes using Figma",
+      "Drove front-end development in a team of 3 developers",
+      "Initiated daily stand-ups with Jira to maintain team alignment in an agile environment",
+      "Reduced load time by 75% with optimistic rendering as well as meaningful loading UI with React Suspense and skeletons",
+      "Implemented comprehensive end-to-end tests using Cypress to ensure the stability and reliability of the application across different scenarios"
+    ]
+  },
+  {
+    "title": "subtrackd",
+    "year": "2023",
+    "tagline": "The Ultimate Subscriptions Management Tool",
+    "description": "View and organise all your subscriptions in one place. Understand your spending at a glance. Stay ahead with timely payment reminders.",
+    "link": "http://www.sub-trackd.com/",
+    "technologies": [
+      "React + Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextUI",
+      "Figma",
+      "Adobe CC",
+      "Clerk",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Express",
+      "Vitest",
+      "Jest",
+      "React Testing Library"
+    ],
+    "responsibilities": [
+      "Delivered a complete rebrand using Adobe CC",
+      "Created lo-res and high-res wireframes using Figma",
+      "Drove front-end development in a team of 3 developers",
+      "Initiated daily stand-ups with Jira to maintain team alignment in an agile environment",
+      "Implemented comprehensive unit and component tests with Vitest, Jest and the Testing Library to ensure the stability and reliability of the application"
+    ]
+  },
+  {
+    "title": "Reciplease",
+    "year": "2023",
+    "tagline": "Your favourite recipes, all in one convenient place",
+    "description": "We've all encountered the frustration of having recipes scattered across websites, cookbooks, magazines and handwritten notes. Reciplease aims to solve this problem by providing a central hub for all of your recipes, regardless of their origin. Users can easily organise, access, and personalise their favourite culinary creations, all in one convenient place.",
+    "technologies": [
+      "React + Vite",
+      "JavaScript",
+      "CSS",
+      "Zustand",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Express",
+      "Figma",
+      "Adobe CC"
+    ],
+    "responsibilities": [
+      "Designed Reciplease's branding using Adobe CC",
+      "Created lo-res and high-res wireframes using Figma",
+      "Implemented a user-friendly front-end and a robust back-end",
+      "Delivered a high-quality and reliable app on strict deadlines"
+    ]
+  }
+]
