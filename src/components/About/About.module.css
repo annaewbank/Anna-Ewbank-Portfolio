@@ -1,17 +1,22 @@
 @import '../../vars.css';
 
 .container {
+  margin: 100px 10% 0 10%;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.content {
   position: relative;
   background-color: rgba(15, 5, 40, 0.6);
   border-radius: 15px;
   padding: 70px;
-  margin: 100px 10% 0 10%;
   z-index: 1;
-}
-
-.content {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 .aboutImg {
@@ -26,19 +31,19 @@
 
 .aboutItem {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   border-radius: 20px;
   list-style: none;
 }
 
+ul img {
+  width: 50px;
+}
+
 @media screen and (max-width: 830px) {
-  .container {
-    padding: 40px 40px;
-  }
   .title {
     text-align: center;
-    margin-bottom: 50px;
   }
   .content {
     flex-direction: column;
@@ -49,6 +54,6 @@
   }
   .aboutItem {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 }

@@ -1,7 +1,6 @@
 @import '../../vars.css';
 
 .container {
-  color: var(--color-text);
   margin: 80px 10% 0 10%;
 }
 
@@ -41,4 +40,10 @@
 
 .experienceBullet {
   margin-left: 2%;
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    text-align: center;
+  }
 }
