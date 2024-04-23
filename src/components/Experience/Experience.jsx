@@ -13,7 +13,7 @@ export const Experience = () => {
                 <h3>{experience.role}</h3>
                 <h4>{experience.organisation}</h4>
               </div>
-              <p>
+              <p className={styles.experienceDates}>
                 {experience.startDate} - {experience.endDate}
               </p>
             </div>

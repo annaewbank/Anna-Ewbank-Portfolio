@@ -17,7 +17,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I&apos;m a frontend developer with experience in building
+                I&apos;m a frontend developer passionate about building
                 responsive and optimised websites and apps.
               </p>
             </div>
@@ -37,9 +37,9 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
-                With almost 10 years experience as a designer, I am confident in
-                bringing code to life. Creating beautiful but user-friendly
-                websites and apps makes me tick.
+                With 10 years of experience as a designer, I am confident in
+                bringing code to life. Creating beautiful but user-friendly UI
+                makes me tick.
               </p>
             </div>
           </li>
