@@ -1,0 +1,66 @@
+[
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind-css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/next-js.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node-js.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Jest",
+    "imageSrc": "skills/jest.png"
+  },
+  {
+    "title": "Cypress",
+    "imageSrc": "skills/cypress.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Adobe CC",
+    "imageSrc": "skills/adobe-cc.png"
+  },
+  {
+    "title": "JIRA",
+    "imageSrc": "skills/jira.png"
+  }
+]

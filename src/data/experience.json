@@ -1,0 +1,51 @@
+[
+  {
+    "role": "Software Developer",
+    "organisation": "mobcoders",
+    "organisationDetails": "A dynamic app development agency specialising in React and Next.js",
+    "startDate": "2023",
+    "endDate": "2024",
+    "experiences": [
+      "Led front-end development in a close-knit team of 3 developers",
+      "Introduced daily stand-ups with Jira to maintain team alignment in an agile environment",
+      "Reduced load time by 75% with optimistic rendering as well as meaningful loading UI with React Suspense and skeletons",
+      "Implemented comprehensive end-to-end tests with Cypress to ensure the  reliability of my work"
+    ]
+  },
+  {
+    "role": "Software Developer & Designer",
+    "organisation": "Anna Ewbank Design",
+    "organisationDetails": "Freelance work creating compelling and impactful designs, from graphic design and packaging design to animation and software development",
+    "startDate": "2017",
+    "endDate": "2024",
+    "experiences": [
+      "Clients included Northeastern University, Lucy Bee and the British Orthodontic Society (BOS)",
+      "Animations designed for the BOS helped 97% of patients surveyed to look after their teeth",
+      "Boosted website leads by up to 30% and saw reduced bounce rates across all cases"
+    ]
+  },
+  {
+    "role": "Associate",
+    "organisation": "Mondrian Investment Partners",
+    "organisationDetails": "An employee-owned investment management firm specialised in value investments for large, institutional clients",
+    "startDate": "2020",
+    "endDate": "2023",
+    "experiences": [
+      "Used code to process client data and enable the automation of large, standardised and compliant client books",
+      "Significantly decreased client book creation time by up to 99%, improving both efficiency and productivity",
+      "Qualifications: Investment Management and Advice in the UK Context (CFA)"
+    ]
+  },
+  {
+    "role": "Account Executive",
+    "organisation": "Send Me a Sample (part of M&C Saatchi)",
+    "organisationDetails": "A fast-paced technology start-up focused on delivering product trial and customer acquisition through voice technology",
+    "startDate": "2019",
+    "endDate": "2020",
+    "experiences": [
+      "Maintained relationships with large, global clients such as Coca-Cola, Unilever and Diageo",
+      "Achieved a 59% customer conversion rate and 12,000 product requests in 27 hours for one client",
+      "Qualifications: IPA Foundation Certificate (IPA)"
+    ]
+  }
+]
