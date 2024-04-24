@@ -100,5 +100,6 @@
   }
   .heroImg {
     width: 60%;
+    height: auto;
   }
 }
