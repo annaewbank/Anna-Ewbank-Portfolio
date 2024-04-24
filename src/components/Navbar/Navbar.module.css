@@ -47,6 +47,7 @@
   }
 
   .menuItems {
+    width: 80vw;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -59,8 +60,8 @@
     ); /* Back up for browsers which do not support linear gradients */
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      rgba(88, 28, 175, 0.5) 0%,
+      rgba(88, 28, 175, 1) 100%
     );
     padding: 20px 30px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
@@ -74,5 +75,10 @@
     gap: 10px;
     padding: 40px 40px;
     z-index: 1;
+  }
+
+  img {
+    width: 50px;
+    padding: 10px;
   }
 }

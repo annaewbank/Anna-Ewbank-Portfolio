@@ -29,3 +29,14 @@
 .contactDetails img {
   width: 50px;
 }
+
+.contactDetails img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 830px) {
+  .title,
+  .content {
+    text-align: center;
+  }
+}
