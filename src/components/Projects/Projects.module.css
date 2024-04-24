@@ -20,6 +20,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .container {
+    margin: 80px 5% 0 5%;
+  }
   .projects {
     flex-direction: column;
     gap: 20px;

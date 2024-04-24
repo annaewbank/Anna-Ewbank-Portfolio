@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width: 830px) {
+  .container {
+    margin: 80px 5% 0 5%;
+  }
   .title {
     text-align: center;
   }
