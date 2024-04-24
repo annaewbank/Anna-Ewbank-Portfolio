@@ -27,7 +27,7 @@ export const ProjectCard = ({ project }) => {
         <h4 className={styles.projectTagline}>{project.tagline}</h4>
         <p style={{ whiteSpace: 'pre-wrap' }}>{project.description}</p>
         {project.link && (
-          <a href={project.link} className={styles.projectBtn}>
+          <a href={project.link} className={styles.projectBtn} target="_blank">
             Try it yourself
           </a>
         )}

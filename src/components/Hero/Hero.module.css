@@ -98,4 +98,7 @@
   .description {
     text-align: center;
   }
+  .heroImg {
+    width: 60%;
+  }
 }
