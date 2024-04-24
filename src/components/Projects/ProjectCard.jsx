@@ -1,27 +1,45 @@
 /* eslint-disable react/prop-types */
 
-import styles from './Projects.module.css';
+import { getImageUrl } from '../../utils';
+import styles from './ProjectCard.module.css';
 
 export const ProjectCard = ({ project }) => {
   return (
-    <div>
-      <div>
-        <h3>{project.title}</h3>
-        <p>{project.year}</p>
+    <div className={styles.container}>
+      <div className={styles.imgAndTech}>
+        <img
+          src={getImageUrl(project.imageSrc)}
+          alt={`${project.title} Image`}
+        />
+        <div className={styles.mobileTechnologies}>
+          {project.technologies.map((technology, index) => (
+            <div key={index} className={styles.projectTechnology}>
+              {technology}
+            </div>
+          ))}
+        </div>
       </div>
-      <h4>{project.tagline}</h4>
-      <p>{project.description}</p>
-      {project.link && <a href={project.link}>Try it yourself</a>}
-      <p>Tech Stack:</p>
-      {project.technologies.map((technology, index) => (
-        <div key={index}>{technology}</div>
-      ))}
-      <p>Main Responsibilities:</p>
-      <ul>
-        {project.responsibilities.map((responsibility, index) => (
-          <li key={index}>{responsibility}</li>
-        ))}
-      </ul>
+      <div className={styles.content}>
+        <div className={styles.projectHeader}>
+          <h3>{project.title}</h3>
+          <p className={styles.projectYear}>{project.year}</p>
+        </div>
+        <h4 className={styles.projectTagline}>{project.tagline}</h4>
+        <p style={{ whiteSpace: 'pre-wrap' }}>{project.description}</p>
+        {project.link && (
+          <a href={project.link} className={styles.projectBtn}>
+            Try it yourself
+          </a>
+        )}
+        <div className={styles.projectTechnologies}>
+          {project.technologies.map((technology, index) => (
+            <div key={index} className={styles.projectTechnology}>
+              {technology}
+            </div>
+          ))}
+        </div>
+        {project.note && <p className={styles.projectNote}>{project.note}</p>}
+      </div>
     </div>
   );
 };

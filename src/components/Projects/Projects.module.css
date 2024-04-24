@@ -8,42 +8,20 @@
   margin-bottom: 20px;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.experienceItem {
-  list-style: none;
-  margin-bottom: 20px;
-  background-color: rgba(15, 5, 40, 0.6);
-  border-radius: 15px;
-  padding: 20px 30px;
-}
-
-.experienceItemHeader {
+.projects {
   display: flex;
   justify-content: space-between;
-}
-
-.experienceDates {
-  font-size: 16px;
-  text-align: right;
-}
-
-.experienceItemCompanyDetails {
-  color: var(--color-dark);
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.experienceBullet {
-  margin-left: 2%;
 }
 
 @media screen and (max-width: 830px) {
   .title {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .projects {
+    flex-direction: column;
+    gap: 20px;
   }
 }
