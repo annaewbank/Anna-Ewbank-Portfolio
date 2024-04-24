@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Email",
+    "imageSrc": "contact/emailIcon.png",
+    "url": "mailto:Ewbank145@gmail.com"
+  },
+  {
+    "title": "LinkedIn",
+    "imageSrc": "contact/linkedinIcon.png",
+    "url": "https://www.linkedin.com/in/annaewbank/"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "contact/githubIcon.png",
+    "url": "https://github.com/annaewbank"
+  }
+]
