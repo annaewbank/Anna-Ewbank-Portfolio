@@ -37,9 +37,9 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
-                With 10 years of experience as a designer, I am confident in
-                bringing code to life. Creating beautiful but user-friendly UI
-                makes me tick.
+                A Central Saint Martins Product Design alumni with 10 years of
+                experience as a designer, I am confident in bringing code to
+                life. Creating beautiful but user-friendly UI makes me tick.
               </p>
             </div>
           </li>
