@@ -1,6 +1,6 @@
 import styles from './Technologies.module.css';
-import { getImageUrl } from '../../utils';
 import skills from '../../data/skills.json';
+import { getImageUrl } from '../../utils';
 
 export const Skills = () => {
   return (

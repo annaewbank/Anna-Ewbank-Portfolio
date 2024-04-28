@@ -9,7 +9,7 @@
       "Led front-end development in a close-knit team of 3 developers",
       "Introduced daily stand-ups with Jira to maintain team alignment in an agile environment",
       "Reduced load time by 75% with optimistic rendering as well as meaningful loading UI with React Suspense and skeletons",
-      "Implemented comprehensive end-to-end tests with Cypress to ensure the  reliability of my work"
+      "Implemented comprehensive unit tests with Jest and end-to-end tests with Cypress to ensure the reliability of my work"
     ]
   },
   {

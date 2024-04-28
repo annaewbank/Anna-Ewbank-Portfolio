@@ -12,6 +12,7 @@ export const ProjectCard = ({ project }) => {
           alt={`${project.title} Image`}
         />
         <div className={styles.mobileTechnologies}>
+          {/* These technologies are hidden if screen size is > 1200px or < 830px */}
           {project.technologies.map((technology, index) => (
             <div key={index} className={styles.projectTechnology}>
               {technology}
@@ -32,6 +33,7 @@ export const ProjectCard = ({ project }) => {
           </a>
         )}
         <div className={styles.projectTechnologies}>
+          {/* These technologies are hidden if screen size is between 830px and 1200px */}
           {project.technologies.map((technology, index) => (
             <div key={index} className={styles.projectTechnology}>
               {technology}

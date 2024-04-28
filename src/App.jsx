@@ -1,10 +1,10 @@
 import styles from './App.module.css';
-import { Hero } from './components/Hero/Hero';
 import { Navbar } from './components/Navbar/Navbar';
+import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
-import { Experience } from './components/Experience/Experience';
-import { Skills } from './components/Technologies/Technologies';
 import { Projects } from './components/Projects/Projects';
+import { Skills } from './components/Technologies/Technologies';
+import { Experience } from './components/Experience/Experience';
 import { Contact } from './components/Contact/Contact';
 
 function App() {
