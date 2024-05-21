@@ -11,8 +11,8 @@ export const Hero = () => {
           I&apos;m Anna.
         </h1>
         <p className={styles.description}>
-          A driven full-stack developer interested in bridging the space between
-          design and development.
+          A driven developer interested in bridging the space between design and
+          development.
         </p>
         <a href="mailto:Ewbank145@gmail.com" className={styles.contactBtn}>
           Get in touch
