@@ -5,7 +5,6 @@
     "imageSrc": "projects/cogo.png",
     "tagline": "Group travel, hassle-free",
     "description": "Simply create a group trip and invite your friends.\n\nTrip members can then propose and vote on potential destinations and accommodation.\n\nWhen ready, trip organisers can create a virtual cogopay card to be used for group payments. No more awkwardly splitting bills.",
-    "link": "http://www.cogo.uk/",
     "technologies": [
       "Next.js",
       "TypeScript",
@@ -38,7 +37,6 @@
     "imageSrc": "projects/subtrackd.png",
     "tagline": "The Ultimate Subscriptions Management Tool",
     "description": "View and organise all your subscriptions in one place.\n\nUnderstand your spending at a glance.\n\nStay ahead with timely payment reminders.",
-    "link": "http://www.sub-trackd.com/",
     "technologies": [
       "React + Vite",
       "TypeScript",

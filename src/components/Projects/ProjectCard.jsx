@@ -27,11 +27,11 @@ export const ProjectCard = ({ project }) => {
         </div>
         <h4 className={styles.projectTagline}>{project.tagline}</h4>
         <p style={{ whiteSpace: 'pre-wrap' }}>{project.description}</p>
-        {project.link && (
+        {/* {project.link && (
           <a href={project.link} className={styles.projectBtn} target="_blank">
             Try it yourself
           </a>
-        )}
+        )} */}
         <div className={styles.projectTechnologies}>
           {/* These technologies are hidden if screen size is between 830px and 1200px */}
           {project.technologies.map((technology, index) => (
