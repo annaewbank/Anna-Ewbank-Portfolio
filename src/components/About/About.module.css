@@ -8,6 +8,10 @@
   margin-bottom: 20px;
 }
 
+.aboutItemText > h3 {
+  color: var(--color-primary);
+}
+
 .content {
   position: relative;
   background-color: rgba(15, 5, 40, 0.6);
