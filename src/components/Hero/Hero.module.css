@@ -89,10 +89,19 @@
   .container {
     flex-direction: column-reverse;
     margin: 0px 10% 0 10%;
+    gap: 30px;
   }
 
   .content {
     align-items: center;
+  }
+
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .description {
+    margin-bottom: 30px;
   }
 
   .title,
