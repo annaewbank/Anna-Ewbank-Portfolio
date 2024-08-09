@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -8,7 +10,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: var(--color-text);
 }
 
@@ -21,18 +25,17 @@ html {
 h1 {
   font-size: 72px;
   font-weight: 900;
-  font-family: var(--font-roboto);
 }
 
 h2 {
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1.75px;
 }
 
 h3 {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h4 {
@@ -43,6 +46,7 @@ h4 {
 
 p {
   font-size: 20px;
+  font-weight: 400;
 }
 
 li {
@@ -52,5 +56,5 @@ li {
 a {
   font-size: 20px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
 }

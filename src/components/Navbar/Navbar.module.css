@@ -20,6 +20,10 @@
   list-style: none;
 }
 
+.menuItems a:hover {
+  color: var(--color-dark);
+}
+
 .menuBtn {
   display: none;
 }
