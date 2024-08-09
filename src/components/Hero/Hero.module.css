@@ -40,7 +40,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 40%;
   z-index: 1;
   animation-name: floating;
   animation-duration: 3s;
@@ -88,6 +88,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin: 0px 10% 0 10%;
   }
 
   .content {
@@ -98,6 +99,7 @@
   .description {
     text-align: center;
   }
+
   .heroImg {
     width: 60%;
     object-fit: contain;
