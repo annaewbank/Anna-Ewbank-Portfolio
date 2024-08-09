@@ -23,6 +23,7 @@
   width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .projectHeader {
@@ -96,9 +97,13 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
+    gap: 15px;
   }
   img {
     margin-bottom: 0;
+  }
+  .imgAndTech img {
+    margin-bottom: 0px;
   }
   .mobileTechnologies {
     display: none;
