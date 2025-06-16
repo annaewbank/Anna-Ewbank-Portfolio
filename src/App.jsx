@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import styles from './App.module.css';
+import { Drawer } from './components/Drawer/Drawer';
 import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
@@ -8,14 +10,17 @@ import { Experience } from './components/Experience/Experience';
 import { Contact } from './components/Contact/Contact';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className={styles.App}>
-      <Navbar />
+      <Drawer menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Hero />
       <About />
-      <Projects />
       <Skills />
       <Experience />
+      <Projects />
       <Contact />
     </div>
   );

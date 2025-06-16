@@ -1,0 +1,50 @@
+.drawer {
+  display: none;
+}
+
+@media screen and (max-width: 830px) {
+  .drawer {
+    display: block;
+    position: -webkit-fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: 500ms;
+    background-color: var(--color-dark);
+    z-index: 10;
+    width: 100%;
+  }
+
+  .drawerHeader {
+    height: 70px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0 10% 0 10%;
+  }
+
+  .drawerItems {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  h3 {
+    color: var(--color-primary);
+    text-align: center;
+  }
+
+  .closeBtn {
+    cursor: pointer;
+    width: 60px;
+  }
+
+  .drawerOpen {
+    transform: translateX(0);
+  }
+}
