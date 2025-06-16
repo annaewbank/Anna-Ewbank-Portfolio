@@ -22,6 +22,9 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <div className={styles.footer}>
+        <p>© 2025 Anna Ewbank</p>
+      </div>
     </div>
   );
 }
