@@ -30,11 +30,23 @@
     height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
   }
 
-  h3 {
+  .drawerItem {
+    display: block;
+    width: 30%;
+    border-bottom: 2px solid var(--color-text);
+    padding-bottom: 2rem;
+  }
+
+  .drawerItem:last-child {
+    border-bottom: none;
+  }
+
+  .drawerItem > h3 {
     color: var(--color-primary);
     text-align: center;
   }

@@ -28,7 +28,12 @@ export const Drawer = ({ setMenuOpen, menuOpen }) => {
       </div>
       <nav className={styles.drawerItems}>
         {links.map((link, index) => (
-          <a href={link.path} key={index} onClick={() => setMenuOpen(false)}>
+          <a
+            href={link.path}
+            key={index}
+            onClick={() => setMenuOpen(false)}
+            className={styles.drawerItem}
+          >
             <h3>{link.name}</h3>
           </a>
         ))}
