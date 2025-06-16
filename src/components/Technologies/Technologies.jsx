@@ -10,13 +10,11 @@ export const Skills = () => {
         <div className={styles.skills}>
           {skills.map((skill, id) => (
             <div key={id} className={styles.skill}>
-              <div className={styles.skillImgContainer}>
-                <img
-                  src={getImageUrl(skill.imageSrc)}
-                  alt={`${skill.title} Logo`}
-                />
-                <p>{skill.title}</p>
-              </div>
+              <img
+                src={getImageUrl(skill.imageSrc)}
+                alt={`${skill.title} Logo`}
+              />
+              <p>{skill.title}</p>
             </div>
           ))}
         </div>
