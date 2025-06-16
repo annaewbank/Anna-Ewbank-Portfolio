@@ -37,7 +37,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Designer</h3>
               <p>
-                A Central Saint Martins Product Design alumni with 10 years of
+                A Central Saint Martins Product Design alumnus with 10 years of
                 experience as a designer, I am confident in bringing code to
                 life. Creating beautiful but user-friendly UI makes me tick.
               </p>
