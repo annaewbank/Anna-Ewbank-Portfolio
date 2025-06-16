@@ -1,44 +1,33 @@
 import styles from './Navbar.module.css';
-import { useState } from 'react';
 import { getImageUrl } from '../../utils';
 
-export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const links = [
+  { name: 'About', path: '#about' },
+  { name: 'Technologies', path: '#technologies' },
+  { name: 'Experience', path: '#experience' },
+  { name: 'Projects', path: '#projects' },
+  { name: 'Contact', path: '#contact' },
+];
 
+// eslint-disable-next-line react/prop-types
+export const Navbar = ({ setMenuOpen, menuOpen }) => {
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.menu}>
-        <img
-          src={
-            menuOpen
-              ? getImageUrl('nav/closeIcon.png')
-              : getImageUrl('nav/menuIcon.png')
-          }
-          alt="Menu Button"
-          onClick={() => setMenuOpen(!menuOpen)}
-          className={styles.menuBtn}
-        />
-        <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)}
-        >
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#technologies">Technologies</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div className={styles.navbar}>
+      <img
+        src={getImageUrl('nav/menuIcon.png')}
+        alt="Menu Button"
+        onClick={() => setMenuOpen(!menuOpen)}
+        className={styles.menuBtn}
+      />
+      <nav className={styles.menu}>
+        {links.map((link, index) => {
+          return (
+            <a href={link.path} key={index} className="hover:text-garnet">
+              {link.name}
+            </a>
+          );
+        })}
+      </nav>
+    </div>
   );
 };
