@@ -37,7 +37,7 @@
 
   .drawerItem {
     display: block;
-    width: 30%;
+    width: 50%;
     border-bottom: 2px solid var(--color-text);
     padding-bottom: 2rem;
   }
